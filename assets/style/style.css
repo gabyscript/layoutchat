@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Viewport total */
+
+.viewport {
+    display: flex;
+    
+}
+
+/* Menú lateral */
+
+.menu {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px #BEC1BB;
+        
+}
+
+/* Estado de usuario */
+
+.usuario-menu {
+    width: 30vw;
+    height: 15vh;
+    border-bottom: solid 1px #BEC1BB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-usuario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotografia-usuario {
+    width: 4vw;
+    height: 8vh;
+    background-image: url("../img/maria.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    margin-left: 2vw;
+    
+}
+
+.datos-usuario {
+    width: 8vw;
+    height: 10vh;
+    margin-left: 1vw;
+    margin-top: 4vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.datos-usuario h4 {
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.datos-usuario p {
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+
+.iconos-usuario {
+    margin-right: 2vw;
+}
+
+.iconos-usuario i{
+    margin-left: 2vw;
+}
+
+/* Boton Nuevo chat */
+
+.boton-menu {
+    width: 30vw;
+    height: 15vh;
+    border-bottom: solid 1px #BEC1BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+    
+}
+.boton-menu :hover {
+    background-color: #CDC3E6;
+    transition: 1s;
+}
+
+.boton-nuevochat {
+    width: 13vw;
+    height: 8vh;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    background-color: #a491d2;
+    font-weight: 600;
+
+}
+
+.boton-nuevochat p {
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2vw;
+}
+
+/* Contactos Menú */
+
+.contactos-menu {
+    width: 30vw;
+    height: 10vh;
+    background-color: #fff;
+    border-bottom: solid 1px #BEC1BB;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.fotografia-contacto {
+    width: 3vw;
+    height: 6vh;
+    border-radius: 100%;
+    margin-left: 2.5vw;
+}
+
+.nombre-contacto {
+    width: 10vw;
+    height: 3vh;
+    margin-left: 1.5vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.nombre-contacto h4 {
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.nombre-contacto p {
+    font-size: 1.2vw;
+    font-weight: 300;
+    display: block;
+}
+
+#contacto-1 {
+    background-image: url("../img/Screen\ Shot\ 2018-11-28\ at\ 15.27.14.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contacto-2 {
+    background-image: url("../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.04.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contacto-3 {
+    background-image: url("../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.30.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contacto-4 {
+    background-image: url("../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.34.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contacto-5 {
+    background-image: url("../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.54.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contacto-6 {
+    background-image: url("../img/Screen\ Shot\ 2018-11-28\ at\ 15.31.09.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contacto-7 {
+    background-image: url("../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.16.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contacto-8 {
+    background-image: url("../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.44.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Sección principal */
+
+.principal {
+    background-color: #E8EBE4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo-principal {
+    width: 20vw;
+    height: 35vh;
+    background-image: url(../img/hand.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%;}   
+
+.principal h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.25vw;
+    font-weight: 500;
+}
+
+.principal p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    letter-spacing: 0.020vw;
+}
